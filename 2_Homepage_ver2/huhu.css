@@ -1,0 +1,538 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 10%;
+    align-items: center;
+    
+}
+
+.header .trai {
+    width: 257px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.header .phai {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.header .phai input {
+    width: 200px;
+    height: 36px;
+}
+
+.header .phai img {
+    background-position: center;
+    background-size: cover;
+}
+
+.header .trai a {
+    color: black;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+
+/*banner*/
+
+.banner {
+    background-image: url(banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 607px;
+    width: 100%;
+    position: relative;
+}
+
+.banner .noidung {
+    position: absolute;
+    top: 200px;
+    left: 220px;
+}
+
+.banner .noidung h1 {
+    color: black;
+    font-weight: 600;
+    font-size: 60px;
+}
+
+.banner .noidung p {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.banner .noidung a {
+    width: 181px;
+    height: 51px;
+    background-color: green;
+    padding: 10px 10%;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+}
+
+
+/*banner*/
+
+
+/*gioithieu*/
+
+.gioithieu {
+    margin-top: 145px;
+    margin-bottom: 39px;
+}
+
+.gioithieu h1 {
+    width: 100%;
+    height: 68px;
+    font-weight: 800;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.gioithieu .mua1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+
+.a1 a {
+    color: white;
+    background-color: green;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 10px;
+    width: 153px;
+}
+
+.a2 a {
+    color: green;
+    text-decoration: none;
+}
+
+
+/*gioithieu*/
+
+
+/*setion*/
+
+section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 0;
+    padding: 0;
+    
+}
+
+section .card1 {
+    height: 474px;
+    background-color: white;
+    width: 282px;
+    background-image: url(anh1.png);
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    position: relative;
+    margin: 0 auto;
+}
+
+section .card2 {
+    height: 474px;
+    background-color: white;
+    width: 282px;
+    background-image: url(anh111.png);
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    position: relative;
+    margin: 0 auto;
+}
+
+section .card3 {
+    height: 474px;
+    background-color: white;
+    width: 282px;
+    background-image: url(anh12.png);
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    position: relative;
+    margin: 0 auto;
+    
+}
+
+section .card4 {
+    height: 474px;
+    background-color: white;
+    width: 282px;
+    background-image: url(anh13.png);
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    margin: 0 auto;
+    cursor: pointer;
+    position: relative;
+}
+
+section .chitietcard1 {
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+}
+
+section .chitietcard1 .tien {
+    background-image: url(anh11.png);
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    background-position: right;
+    height: 71px;
+    cursor: pointer;
+    width: 227px;
+}
+
+section .chitietcard2 {
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+}
+
+section .chitietcard2 .tien {
+    background-image: url(anh11.png);
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    background-position: right;
+    height: 71px;
+    cursor: pointer;
+    width: 227px;
+}
+
+section .chitietcard3 {
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+}
+
+section .chitietcard3 .tien {
+    background-image: url(anh11.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 71px;
+    width: 227px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+section .chitietcard4 {
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+}
+
+section .chitietcard4 .tien {
+    background-image: url(anh11.png);
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    height: 71px;
+    width: 227px;
+    background-position: right;
+    cursor: pointer;
+}
+section .khoe{
+    position: absolute;
+    font-weight: 200;
+    font-size: 12px;
+    right: 20px;
+    color: #ba8632;
+    background-color: #fec970;
+    padding: 5px 1%;
+    top: 25px;
+    border-radius: 12px;
+}
+
+/*setion*/
+
+
+/*setion*/
+.section2{
+    width: 100%;
+    position: relative;
+    margin-top: 143px;
+    
+}
+.gioithieu1 {
+    display: flex;
+    align-items: center;     
+    margin-bottom: 20px;
+}
+.gioithieu1 h1{
+    text-align: center;
+    width: 100%;
+}
+.gioithieu1 .see {
+    
+    position: absolute;
+    right: 250px;
+    color: green;
+    text-decoration: none;
+}
+.gird{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.girdtrai{
+    height: 337px;
+    width: 779px;
+    background-color: red;
+    margin: 0 auto;
+    background-image: url(Image\ 1\ \(4\).png);
+    background-size: cover;
+    position: relative;
+    margin-right: 20px;
+}
+.girdphai{
+    height: 337px;
+    width: 779px;
+    background-color: red;
+    margin: 0 auto;
+    background-image: url(Image\ 1\ \(5\).png);
+    background-size: cover;
+    position: relative;
+    margin-left: 20px;
+}
+.detail1{
+    position: absolute;
+    top: 71px;
+    left: 38px;
+    font-weight: 900;
+    font-size: 26px;
+}
+.detail1 p{
+    font-weight: 400;
+}
+.detail1 a{
+    width: 132px;
+    height:36px ;
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+    background-color: green;
+    text-decoration: none;
+    padding: 7px 10%;
+    border-radius: 8px;
+}
+/*setion*/
+/*setion*/
+.section3{
+    margin-top: 148px;
+}
+.gioithieu2 {
+    display: flex;
+    align-items: center;     
+    margin-bottom: 20px;
+}
+.gioithieu2 h1{
+    text-align: center;
+    width: 100%;
+}
+.gioithieu2 .see {
+    
+    position: absolute;
+    right: 250px;
+    color: green;
+    text-decoration: none;
+}
+.anh{
+    width: 100%;
+    height: 80vh;
+    background-image: url(Image\ 1\ \(6\).png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    position: relative;
+    background-position: center;
+}
+.anh p{
+    position: absolute;
+    bottom: 140px;
+    right: 210px;
+    color: white;
+    background-color: black;
+    padding: 9px 2%;
+    border-radius: 5px;
+}
+/*setion*/
+/*setion*/
+.section4{
+    margin-top: 160px;
+    margin-left:80px ;
+    margin-right:80px ;
+}
+.gird1{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+}
+.girdtrai1{
+    width: 379px;
+    height: 379px;
+    font-weight: 600;
+    font-size: 20px;
+    margin: 0 auto;
+    position: relative;
+    
+}
+.girdtrai1 .phanduoigirdtrai{
+    position: absolute;
+    right: 0;
+    bottom: 20px;
+}
+.girdtrai1 h1{
+    font-weight: 700;
+    font-size: 50px;
+}
+.girdtrai1 p{
+    margin-bottom: 20px;
+    
+}
+.girdtrai1 .detail2{
+    margin-top: 45px;
+}
+.girdtrai1 a{
+    color: green;
+    border:1px solid green;
+    text-decoration: none;
+    padding: 9px 25px;
+    
+    
+    
+}
+.girdgiua1{
+    width: 379px;
+    height: 379px;
+    background-image: url(Image\ 1\ \(7\).png);
+    background-repeat: no-repeat;
+    position: relative;
+    border: .2px solid grey;
+    border-radius: 5px;
+    margin: 0 auto;
+    
+}
+.girdphai1{
+    width: 379px;
+    height: 379px;
+    background-image: url(Image\ 1\ \(8\).png);
+    background-repeat: no-repeat;
+    position: relative;
+    border: .2px solid grey;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+.detail3{
+    position: absolute;
+    bottom: 0;
+    left: 10px;
+
+   
+}
+/*setion*/
+/*setion*/
+.section5{
+    margin-top: 214px;
+}
+.section5 .thongbao{
+    text-align: center;
+}
+.section5 h1{
+    font-weight: 800;
+    font-size: 60px;
+}
+.section5 p{
+    color: grey;
+}
+.gird2tren{
+    display: grid;
+    grid-template-columns: repeat(6,190px);
+    gap: 10px;
+    margin: 0 auto;
+    place-content: center;
+
+}
+.gird2tren .girdtren1{
+    background-image: url(Image\ 1\ \(9\).png);
+    
+}
+.gird2tren .girdtren2{
+    background-repeat: no-repeat;
+    background-image: url(Image\ 1\ \(10\).png);
+   
+    
+}
+.gird2tren  .girdtren3{
+    background-repeat: no-repeat;
+    background-image: url(Image\ 1\ \(11\).png);
+   
+}
+.gird2tren .girdtren4{
+    background-repeat: no-repeat;
+    background-image: url(Image\ 1\ \(12\).png);
+    
+}
+.gird2tren .girdtren5{
+    
+    background-repeat: no-repeat;
+    background-image: url(Image\ 1\ \(13\).png);
+    
+}
+.gird2tren .girdtren6{
+    background-image: url(Image\ 1\ \(14\).png);
+    
+    width: 192px;
+    height: 189px;
+}
+.gird2duoi{
+    display: grid;
+    grid-template-columns: repeat(6,190px);
+    gap: 10px;
+    margin: 0 auto;
+    place-content: center;
+
+}
+.gird2tren .girdduoi1{
+    background-image: url(Image\ 1\ \(15\).png);
+}
+.gird2tren .girdduoi2{
+    background-image: url(Image\ 1\ \(16\).png);
+}
+.gird2tren .girdduoi3{
+    background-image: url(Image\ 1\ \(17\).png);
+}
+.gird2tren .girdduoi4{
+    background-image: url(Image\ 1\ \(18\).png);
+}
+.gird2treni .girdduoi5{
+    background-image: url(Image\ 1\ \(20\).png);
+}
+.gird2tren .girdduoi6{
+    background-image: url(Image\ 1\ \(20\).png);
+    width: 192px;
+    height: 189px;
+}
+/*setion*/
